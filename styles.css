@@ -2,7 +2,12 @@
   font-family: arial;
   font-style: italic;
   text-align: center;
+  text-align:
 }
 .body{
   margin: 30px;
+}
+.output {
+  text-align: left;
+  margin-left: 30px;
 }

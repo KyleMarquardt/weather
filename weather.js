@@ -9,11 +9,13 @@ $(function() {
     " degrees today. " + "For the next three days, we'll see highs of " + data.daily.data[1].apparentTemperatureMax +
     ", " + data.daily.data[2].apparentTemperatureMax + ", and " + data.daily.data[3].apparentTemperatureMax + " degrees, respecitvely. "
 
-    var markup = "It is "
+    var markup2 = "The lows will be " + data.daily.data[1].apparentTemperatureMin +
+    ", " + data.daily.data[2].apparentTemperatureMin + ", and " + data.daily.data[3].apparentTemperatureMin + " degrees, respecitvely. "
     //data will probably be what you call for
     // End of your code
 
     $('.weather-report').html(markup);
+    $('.weather-report-2').html(markup2);
   }
   $('a.get-the-weather').on('click', function(event) {
     event.preventDefault();
