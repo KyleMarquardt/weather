@@ -5,10 +5,11 @@ $(function() {
     // Put your code here to change the "markup" variable.
     // Don't change any other code in this file. You will be sad.
 
-    var markup = "it is " + data.currently.summary + " and " + data.currently.apparentTemperature +
+    var markup = "It is " + data.currently.summary + " and " + data.currently.apparentTemperature +
     " degrees today. " + "For the next three days, we'll see highs of " + data.daily.data[1].apparentTemperatureMax +
     ", " + data.daily.data[2].apparentTemperatureMax + ", and " + data.daily.data[3].apparentTemperatureMax + " degrees, respecitvely. "
 
+    var markup = "It is "
     //data will probably be what you call for
     // End of your code
 
